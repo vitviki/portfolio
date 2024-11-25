@@ -20,6 +20,14 @@ p {
     color: rgb(85, 85, 85);
 }
 
+a {
+    text-decoration: none;
+
+    &:hover {
+        text-decoration: none;
+    }
+}
+
 /* TRANSITION */
 a,
 .btn {
@@ -294,6 +302,12 @@ article {
     flex-direction: row;
     gap: 2.5rem;
     justify-content: space-around;
+    height: 250px;
+    overflow: hidden;
+    
+    img {
+        object-fit: contain;
+    }
 }    
 
 
